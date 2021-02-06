@@ -1,6 +1,6 @@
-# Service Control
+# Servis Kontrol
 
-GUI tray program to control systemd (systemctl) services
+GUI tray program to control init.d (sysvinit) services
 
 ![image](https://cloud.githubusercontent.com/assets/1845813/14977395/45150b08-1135-11e6-979e-e9017c518efd.png)
 
