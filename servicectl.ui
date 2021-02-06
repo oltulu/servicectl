@@ -31,7 +31,7 @@
             <property name="spacing">5</property>
             <child>
               <object class="GtkButton" id="button_start_stop">
-                <property name="label" translatable="yes">Start / Stop</property>
+                <property name="label" translatable="yes">Başlat / Durdur</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
@@ -45,7 +45,7 @@
             </child>
             <child>
               <object class="GtkButton" id="button_restart">
-                <property name="label" translatable="yes">Restart</property>
+                <property name="label" translatable="yes">Yeniden Başlat</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
@@ -59,7 +59,7 @@
             </child>
             <child>
               <object class="GtkButton" id="button_reload">
-                <property name="label" translatable="yes">Reload</property>
+                <property name="label" translatable="yes">Yeniden Yükle</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
@@ -106,7 +106,7 @@
                 </child>
                 <child>
                   <object class="GtkTreeViewColumn" id="col-service">
-                    <property name="title" translatable="yes">Service</property>
+                    <property name="title" translatable="yes">Servis</property>
                     <property name="expand">True</property>
                     <child>
                       <object class="GtkCellRendererText" id="cell-service"/>
@@ -131,7 +131,7 @@
                 <child>
                   <object class="GtkTreeViewColumn" id="col-state">
                     <property name="max_width">60</property>
-                    <property name="title" translatable="yes">Running</property>
+                    <property name="title" translatable="yes">Çalışıyor</property>
                     <property name="alignment">1</property>
                     <child>
                       <object class="GtkCellRendererPixbuf" id="cell-state"/>
@@ -156,7 +156,7 @@
     <property name="type_hint">normal</property>
     <property name="gravity">west</property>
     <property name="transient_for">window</property>
-    <property name="program_name">Service Control</property>
+    <property name="program_name">Servis Kontrol</property>
     <property name="version">0.5</property>
     <property name="copyright" translatable="yes">(C) 2016 Stanislav Tamat</property>
     <property name="website">https://github.com/YokiToki/service_ctl</property>
@@ -193,7 +193,7 @@
     <property name="transient_for">window</property>
     <property name="message_type">question</property>
     <property name="buttons">ok-cancel</property>
-    <property name="text" translatable="yes">This application lets you modify essential parts of your system.</property>
+    <property name="text" translatable="yes">Bu uygulama, servisleri değiştirmenize izin verir.</property>
     <child internal-child="vbox">
       <object class="GtkBox" id="getpwddialog-vbox">
         <property name="can_focus">False</property>
@@ -243,7 +243,7 @@
     <property name="type_hint">dialog</property>
     <property name="transient_for">window</property>
     <property name="buttons">ok</property>
-    <property name="text" translatable="yes">You have entered the wrong password. Please, try again.</property>
+    <property name="text" translatable="yes">Yanlış şifre girdiniz. Lütfen tekrar deneyin.</property>
     <child internal-child="vbox">
       <object class="GtkBox" id="incorrectpwddialog-vbox">
         <property name="can_focus">False</property>
